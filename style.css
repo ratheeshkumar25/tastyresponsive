@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;500;600;700;800;900&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,700&display=swap');
+:root{
+    /* Primary color*/
+    --primary-color:rgb(4, 142, 120);
+    --background-color:rgb(1, 43, 37);
+    /*background*/
+    --white-color:rgb(255, 255, 251);
+    --heading-text:rgb(0, 0, 0);
+
+    /*Text and Secondary element*/
+    --text-color:rgb(51, 51, 51);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 75%;
+}
+    
+body{ 
+    font-family:'Lato', sans-serif;
+    color:rgb(140, 140, 140);
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.bg-header{
+    background-color:var(--background-color)
+
+}
+nav{
+    height: 9rem;
+}
+.navbar-brand{
+    font-size: 2.4rem;
+    padding-left: 75px;
+}
+
+.nav-link{
+    color:#fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    display:inline-block;
+
+
+}
+.nav-link:hover,.nav-link:active{
+    background-color: var(--primary-color);
+}
+.nav-link-cta{
+    background-color: var(--primary-color);
+    padding: 4px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.nav-link-cta:hover{
+    background-color: rgb(169, 236, 236);
+    color:white;
+
+}
+h1 {
+    font-size: 4.2rem;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+  }
+  .hero-section{
+    padding:3.2rem;
+  }
+  .hero-section{
+    font-size: 1.8rem;
+    line-height:1.7;
+  }
+  .btn{
+    background-color:rgb(4, 142, 120);
+    color: #fff;
+    padding: 8px 24px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+  }
+  .hero-img{
+    width:90%;
+
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black
+  }
+  .card-text{
+    font-size: 1rem;
+    color: #777;
+  }
+
+  .how-it-works-title{
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .how-it-works-text{
+    font-size: 1.8rem;
+    color: #333;
+    line-height: 1.7;
+  }
+  
+  .icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 1.6rem;
+  }
+  
+  .how-it-works{
+    padding: 2.4rem 0;
+  }
+  
+  .testimonials{
+    padding: 5rem 0;
+    background-color: var(--background-color);
+  }
+  
+  .testimonial-text {
+    color: #048E7B;
+  }
+  
+  .testimonials-name{
+    color: #048E7B;
+  }
+  
+  .testimonial-card{
+    width: 50%;
+  }
+  
+  h3{
+    font-size: 2.4rem;
+  }
+  
+  
+  
+   span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+  }
+  
+  /* change hamburger button border color */
+   button.navbar-toggler {
+    border-color: #fff;
+  }
+  
+  /* change navbar background on collapse */
+  @media (max-width: 982px) {
+    nav .navbar-nav {
+      background-color: #048e7c74;
+      padding: 2rem;
+      backdrop-filter: blur(5px);
+    }
+  
+    .hero-section{
+      text-align: center;
+    }
+    h1{
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .navbar-brand:hover{
+    color: #048E7B ;
+  }
+  
+  
+  .copyright{
+    font-size: 1.4rem;
+    color: #777;
+  }
